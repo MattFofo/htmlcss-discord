@@ -60,7 +60,7 @@ nav{
     padding: .5em;
 }
 
-.link:hover, li:hover{
+.link:hover, .link-nav:hover{
     color: lightskyblue;
 }
 
