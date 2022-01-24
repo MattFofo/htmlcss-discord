@@ -54,7 +54,7 @@ nav{
 
 .link{
     background-color: white;
-    border-radius: 40%;
+    border-radius: 10px 10px 10px 10px;
     text-decoration: none;
     line-height: 1.5;
     padding: .5em;
@@ -74,7 +74,7 @@ nav{
 header .last{
     float: right;
     color: black;
-    border-radius: 40%;
+    
 }
 
 .content{
@@ -118,13 +118,13 @@ section div{
     background-color: lightgray;
 }
 
-.content-row{
+/* .content-row{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     
-}
+} */
 
 
 .column-left{
