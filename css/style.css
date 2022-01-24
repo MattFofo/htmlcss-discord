@@ -58,7 +58,10 @@ nav{
     text-decoration: none;
     line-height: 1.5;
     padding: .5em;
+}
 
+.link:hover, li:hover{
+    color: lightskyblue;
 }
 
 .header, .link-nav{
