@@ -80,6 +80,11 @@ header .last{
     
 }
 
+.dark-link{
+    background-color: rgb(31, 28, 28);
+    color: white;
+}
+
 .content{
     max-width: 600px;
 }
