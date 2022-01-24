@@ -47,11 +47,6 @@ nav{
     
 }
 
-img{
-    float: left;
-    
-    
-}
 
 .link{
     background-color: white;
@@ -95,6 +90,7 @@ header .last{
 .section-text{
     line-height: 1.5em;
     padding-bottom: 2em;
+
 }
 
 .link-content-header{
@@ -128,17 +124,26 @@ section div{
 
 
 .column-left{
-    width: 70%;
     float: left;
 }
 
+
 .column-right{
-    width: 30%;
     float: right;
+}
+
+.column-wider{
+    width: 70%;
+}
+
+.column-thinner{
+    width: 30%;
+
 }
 
 .margin-fix{
     margin-top: -30px;
+    
 }
 
 .double-column h2, p{
