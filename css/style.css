@@ -8,8 +8,16 @@ html{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.centered{
+.text-centered{
     margin: 0 auto;
+    text-align: center;
+}
+
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
 }
 
@@ -67,29 +75,24 @@ img{
 header .last{
     float: right;
     color: black;
-    
     border-radius: 40%;
 }
 
 .content{
     max-width: 600px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 .content.content-header{
     color: white;
 }
 
-.content h2{
-    font-size: 2.5rem;
+.section-title{
+    font-size: 3rem;
     padding-bottom: 1em;
     
 }
 
-.content p{
+.section-text{
     line-height: 1.5em;
     padding-bottom: 2em;
 }
@@ -97,4 +100,47 @@ header .last{
 .link-content-header{
     margin-left: 0.3em;
     margin-right: 0.3em;
+}
+
+.section{
+    height: 700px;
+    position: relative;
+    
+}
+
+section div{
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.section:nth-child(2n+0){
+    background-color: white;
+}
+
+.content-row{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+
+.column-left{
+    width: 70%;
+    float: left;
+}
+
+.column-right{
+    width: 30%;
+    float: right;
+}
+
+.margin-fix{
+    margin-top: -30px;
+}
+
+.double-column h2, p{
+    text-align: left;
 }
