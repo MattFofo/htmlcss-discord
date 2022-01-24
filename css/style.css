@@ -21,6 +21,10 @@ html{
     text-align: center;
 }
 
+/* header, .section{
+    height: 700px;
+} */
+
 header.top-page{
     height: 700px;
     background-image: url(../img/jumbo.png);
@@ -99,7 +103,7 @@ header .last{
 }
 
 .section{
-    height: 700px;
+    height: 800px;
     position: relative;
     
 }
