@@ -46,15 +46,16 @@ nav{
     clear: both;
 }
 
-.link.logo-img{
+.logo{
     vertical-align: middle;
     
 }
 
 
+
 .link{
     background-color: white;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 10em;
     text-decoration: none;
     line-height: 1.5;
     padding: .5em;
@@ -110,6 +111,11 @@ header .last{
     margin-right: 0.3em;
 }
 
+.wave-1hkxOo.reversed{
+    transform: rotate(180deg);
+}
+
+
 .section{
     height: 800px;
     position: relative;
@@ -122,7 +128,7 @@ section div{
     
 }
 
-.section:nth-child(2n+1){
+.background-colored{
     background-color: lightgray;
 }
 
